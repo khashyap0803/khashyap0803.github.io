@@ -1,0 +1,356 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background: linear-gradient(to bottom, #4a4848, #968f8f); */
+  /* height: 100vh; */
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.custom-nav {
+  margin-left: auto !important;
+}
+/* .custom-margin {
+  margin-right: 10px;
+} */
+
+.app-container {
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-heading {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.section-divider {
+  border: 1px solid #ccc;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* WelcomeMessage.css */
+
+.welcome-message {
+  text-align: center;
+  padding: 50px;
+  background-color: #f8f8f8;
+  transition: opacity 0.5s ease; /* Add a transition effect */
+}
+
+.welcome-heading {
+  color: #333;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+/* Add this to your CSS file */
+
+.footer_parent {
+  background-color: rgb(
+    142,
+    135,
+    135
+  ); /* Set the background color of the footer */
+  color: #fff; /* Set the text color */
+  padding: 40px 0; /* Add padding to the top and bottom of the footer */
+}
+
+.cbit_map {
+  width: 100%;
+  height: 250px;
+  border: 0; /* Remove the border of the map */
+}
+
+.cbit_contact {
+  color: #fff; /* Set the text color for the contact information */
+  text-decoration: none; /* Remove the default underline */
+}
+
+.footer-link {
+  color: #fff; /* Set the default text color for links */
+  text-decoration: none; /* Remove the default underline */
+  transition: color 0.3s ease; /* Add a smooth transition effect for color changes */
+}
+
+.footer-link:hover {
+  color: lightblue; /* Set the text color for links on hover */
+  text-decoration: underline; /* Add underline on hover for links */
+}
+
+h3 {
+  color: #fff; /* Set the text color for h3 elements */
+}
+
+/* Adjust other styles as needed */
+/* Add your styling here */
+/* .society-section {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.core-team-section {
+  padding: 20px;
+  background-color: #e0e0e0;
+}
+
+.section-heading {
+  color: #333;
+}
+
+.section-description {
+  color: #666;
+  margin-bottom: 15px;
+} */
+
+.society-section {
+  padding: 30px;
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+  margin-top: 80px;
+}
+.core-team-section {
+  padding: 50px;
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.section-heading {
+  color: #333;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section-description {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+/* Add horizontal line style */
+.section-divider {
+  border-top: 1px solid #ddd;
+  margin-top: 30px;
+}
+
+/* Update NavBar styling */
+.navbar {
+  background-color: #333;
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+/* Update Footer styling */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 30px 0;
+}
+
+.footer a {
+  color: #fff;
+}
+
+/* Update Carousel styling */
+.carousel {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.carousel img {
+  width: 100%;
+  height: 85vh;
+  /* height: auto; */
+}
+
+/* Update CoreTeam styling */
+.core-team {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-member {
+  margin: 20px;
+  text-align: center;
+}
+
+.team-member img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.team-member p {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #555;
+}
+.cutom_margin {
+  margin-top: 0px;
+}
+/* Add this CSS in your stylesheet or component style block */
+
+@media (max-width: 600px) {
+  /* Adjust the max-width value based on your desired breakpoint for mobile screens */
+  .carousel {
+    margin-top: 4%;
+  }
+  .app-container {
+    padding: 8px;
+  }
+  /* .section {
+    margin-bottom: 40px;
+    padding: 0px 20px;
+  } */
+  .footer_parent {
+    padding-bottom: 0px;
+    /* margin: 0px !important; */
+  }
+  .carousel img {
+    height: 30vh;
+  }
+  .custom-margin {
+    margin-left: 20px;
+  }
+  .cust-ml {
+    margin-left: 200px !important;
+  }
+}
+
+a {
+  text-decoration: none; /* Remove underline for all links */
+  color: inherit; /* Inherit the default text color for links */
+  transition: color 0.3s ease; /* Add a smooth transition effect for color changes */
+}
+
+a:hover {
+  color: #add8e6; /* Set the text color for links on hover */
+  text-decoration: none; /* Remove underline on hover for links */
+}
+
+.cust_bg_color {
+  background-color: #8d9c9b;
+  border-radius: 20px;
+}
+
+/* events */
+
+/* .event-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */
+
+.event-card {
+  max-width: auto;
+  margin: 1rem;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.event-card:hover {
+  opacity: 0.8;
+}
+
+/* team carousel */
+.custom-carousel {
+  pointer-events: auto;
+}
+
+.custom-carousel:hover {
+  pointer-events: none;
+}
+
+.event_margin {
+  margin-left: 20px;
+}
+
+/* Add this to your CSS file */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.app-container .section #home .ImageCarousel {
+  animation: slideIn 2s ease-in-out;
+}
+
+.section-description {
+  animation: slideIn 2s ease-in-out;
+}
+
+.custom-disp {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* for login button */
+/* .custWidth {
+  width: 100px !important;
+} */
+
+/* home page */
+@media (max-width: 768px) {
+  .section-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .section-description {
+    font-size: 14px;
+  }
+}
